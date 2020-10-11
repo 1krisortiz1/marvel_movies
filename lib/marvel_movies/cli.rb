@@ -4,3 +4,5 @@ class MarvelMovies::CLI
   def call
     puts "Welcome to Marvel Movies"
   end
+
+end

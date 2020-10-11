@@ -1,5 +1,5 @@
-require "marvel_movies/version"
-require "../lib/marvel_movies"
+require_relative "./marvel_movies/version"
+require_relative "./marvel_movies/cli"
 
 module MarvelMovies
   class Error < StandardError; end
